@@ -1,0 +1,8 @@
+p = input('digite alguma coisa: ')
+print(type(p))
+print('essa palavra tem letras e numeros?',p.isalnum())
+print('essa palavra só tem numeros?',p.isnumeric())
+print('essa palavra só tem letras?',p.isalpha())
+print('essa palavra tá em maiusculas?',p.isupper())
+print('essa palavra tá em minusculas?',p.islower())
+print('essa palavra tá capitalizada?',p.istitle())
